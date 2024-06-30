@@ -13,3 +13,9 @@ G.idea/sonarlint/issuestore/9/3/935e363049a50aee8202a6a5faae2255e65388fc,a\5\a5
 ..idea/inspectionProfiles/profiles_settings.xml,1\e\1e9075f5bf079c01ef2c910709e91a497d262080
 Å
 Q.idea/sonarlint/securityhotspotstore/9/3/935e363049a50aee8202a6a5faae2255e65388fc,8\d\8de1bb3b4fb853fc0ba10d77a6f3017cba4650c8
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+;
+Train.ipynb,9\c\9cec1408cbd96635bd8be3f23e3ccf1d981c12b2
+@
+model_utility.py,b\2\b2b91cf8f3bb62c1ec7c481559d11fd6ecc63e1c
