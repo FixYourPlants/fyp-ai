@@ -21,6 +21,13 @@ def rename_files(directory):
             new_name = f"{counter:04d}{os.path.splitext(file)[1]}"
             new_full_path = os.path.join(directory, new_name.lower())
 
+            while os.path.exists(new_full_path):
+                # Increment the counter
+                counter += 1
+                # Create the new filename with two digits
+                new_name = f"{counter:04d}{os.path.splitext(file)[1]}"
+                new_full_path = os.path.join(directory, new_name.lower())
+
             # Rename the file
             print(f"Renaming {full_path} to {new_full_path}")
             os.rename(full_path, new_full_path)
@@ -31,7 +38,7 @@ def rename_files(directory):
 
 if __name__ == "__main__":
     # Specify the directory where the files are located
-    directory = "./train/Blueberry_Healthy"
+    directory = "./mixed/Tomato leaf_Yellow virus"
 
     # Call the function to rename the files
     rename_files(directory)
