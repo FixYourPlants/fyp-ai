@@ -22,6 +22,7 @@ jobs:
 
       - name: Move kaggle.json
         run: |
+          cat kaggle.json | base64 -d > ~/.kaggle/kaggle.json
           mv kaggle.json ~/.kaggle/kaggle.json
           chmod 600 ~/.kaggle/kaggle.json
 
